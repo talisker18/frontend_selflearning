@@ -1,0 +1,16 @@
+div{
+    background-color: antiquewhite;
+}
+
+span{
+    background-color: rgb(235, 73, 8, 0.5); /*when using rgb we can define opacity (last value)*/
+}
+
+#top{
+    background-color: yellow;
+}
+
+.low{
+    background-color: rgb(134, 145, 243);
+    color: #ff3333; /*hex value*/
+}

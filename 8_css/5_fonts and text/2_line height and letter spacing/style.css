@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+#header{
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    border-top-color: blue;
+    border-left-style: solid;
+    outline: red solid 5px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 50px;
+    width: 30%;
+    /*
+    
+    shorter definition:
+
+    margin: 50px; -> each side
+    
+    
+    */
+}
+
+#begin{
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#cool{
+    /*short way*/
+    font: italic bold 50px helvetica;
+    text-align: center;
+    text-shadow: black 10px 10px 10px;
+}
+
+.underlinedText{
+    text-decoration: none; /*remove for example the underlined text*/
+}
+
+/*go to: https://fonts.google.com/ and copy the stylesheet
+
+then use @import and paste the url in this stylesheet
+
+than use the font-family property
+
+you can import multiple fonts
+
+*/
+#fonts-google-demo{
+    font-family: 'Fascinate', cursive;
+}
+
+.line-height-demo1{
+    line-height: 40px;
+}
+
+.letter-spacing-demo{
+    letter-spacing: 20px; /*we cna also go negative*/
+}
+

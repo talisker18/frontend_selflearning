@@ -1,0 +1,21 @@
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:active{
+    color: blue;
+}
+
+/*if you dont want the underlines. here we remove it on the links in the nav bar*/
+
+nav a {
+    text-decoration: none;
+}

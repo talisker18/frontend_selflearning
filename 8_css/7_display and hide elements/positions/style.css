@@ -1,0 +1,35 @@
+.parent{
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.box{
+    display: inline-block; /*use inline-block instead of inline to apply the sizes*/
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+/*move 20px from actual position of the element*/
+.two-relative{
+    top: 20px;
+    left: 20px;
+    background: green;
+    position: relative;
+}
+
+/*move 20px based on page!!*/
+.two-absolute{
+    top: 20px;
+    left: 20px;
+    background: rgb(68, 30, 204);
+    position: absolute;
+}
+
+/*stays when the page scrolls*/
+.two-fixed{
+    top: 240px;
+    left: 240px;
+    background: rgb(16, 224, 61);
+    position: fixed;
+}
