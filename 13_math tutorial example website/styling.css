@@ -1,3 +1,7 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+
 #container{
     width: 1050px;
     /*border: 1px solid grey;*/
@@ -23,6 +27,9 @@ h1 a{
 #searchbox{
     float: right;
     background: linear-gradient(#E4F2B9,#B7E953);
+    background: -webkit-linear-gradient(#E4F2B9,#B7E953);
+    background: -o-linear-gradient(#E4F2B9,#B7E953);
+    background: -moz-linear-gradient(#E4F2B9,#B7E953);
     width: 400px;
     height: 50px;
     padding: 20px 20px 0 20px;
@@ -59,6 +66,9 @@ ul{
 #menu{
     height: 70px;
     background: linear-gradient(#F8F594,#D5D533);
+    background: -webkit-linear-gradient(#F8F594,#D5D533);
+    background: -o-linear-gradient(#F8F594,#D5D533);
+    background: -moz-linear-gradient(#F8F594,#D5D533);
     padding: 5px 0;
 
 }
@@ -99,6 +109,9 @@ ul{
 
 #introduction{
     background: linear-gradient(#E5F2BB,#B7E952);
+    background: -webkit-linear-gradient(#E5F2BB,#B7E952);
+    background: -o-linear-gradient(#E5F2BB,#B7E952);
+    background: -moz-linear-gradient(#E5F2BB,#B7E952);
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -117,7 +130,7 @@ ul{
 }
 
 .sidebar{
-    height: 500px;
+    height: 400px;
     width: 400px;
     border: 1px solid #BAF46F;
     border-radius: 20px; /*rounded corners*/
@@ -159,11 +172,21 @@ ul{
 }
 
 #rightsidebar ul li{
-    padding-bottom: 6px;
+    padding-bottom: 15px;
     padding-left: 10px;
     list-style-image: url(img/icons8-done-48.png);
 }
 
 #rightsidebar{
     float: right;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390,#D5D533);
+    background: -webkit-linear-gradient(#F6F390,#D5D533);
+    background: -o-linear-gradient(#F6F390,#D5D533);
+    background: -moz-linear-gradient(#F6F390,#D5D533);
+    padding: 10px 20px;
+    margin-top: 10px;
 }
