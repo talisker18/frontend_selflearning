@@ -1,0 +1,33 @@
+a[target="_blank"]{
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+}
+
+input[type="text"]{
+    background-color: green;
+}
+
+input[type="submit"]{
+    color:blueviolet;
+}
+
+/*using wild card*/
+
+[title *="o"]{
+    font-weight: bold;
+    color: gray;
+}
+
+/*containing word*/
+
+[title ~="About"]{
+    font-weight: bold;
+    color:darkorange;
+}
+
+/*use class as attribute*/
+
+[class="blue"]{
+    background-color: blue;
+}

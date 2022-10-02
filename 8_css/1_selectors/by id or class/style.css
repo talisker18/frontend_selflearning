@@ -1,0 +1,18 @@
+div{
+    background-color: antiquewhite;
+}
+
+span{
+    background-color: rgb(235, 73, 8);
+}
+
+/*by id*/
+#top{
+    background-color: yellow;
+}
+
+/*by class*/
+.low{
+    background-color: rgb(134, 145, 243);
+    color: red;
+}

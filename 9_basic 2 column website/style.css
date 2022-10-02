@@ -1,0 +1,61 @@
+.container{
+  width: 1080px;
+  background-color: #ddd;
+  margin: 0 auto; /*center elements*/
+}
+.divy{
+  border: 1px dashed #222;
+  height: 200px;
+}
+#navbar{
+  height: 70px;
+  background-color: black;
+  color: aliceblue;
+}
+.main{
+  width: 60%;
+  float: left;
+  background-color: white;
+}
+.sidemenu{
+  width: 40%;
+  float: right;
+}
+/*move the footer back to the bottom after floating main and sidemenu*/
+
+/*
+
+Um Floats aufzuheben existiert die clear-Eigenschaft von CSS. 
+Mit clear:left; werden vorherige float:left;-Befehle aufgehoben, 
+mit clear:right; vorherige float:right;-Angaben. 
+
+Wenn alle Floats aufgehoben werden sollen, schreibt man clear:both;.
+
+*/
+.clearfix{
+  clear: both;
+}
+.bgcolor{
+  background-color: red;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+#navbar a:hover{
+  background-color: red;
+  color: white;
+}
+#navbar ul{
+  background-color: black;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#navbar ul li{
+  display: inline-block;
+  margin: 10px; /*or also padding*/
+}

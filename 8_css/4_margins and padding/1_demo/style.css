@@ -1,0 +1,20 @@
+#header{
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    border-top-color: blue;
+    border-left-style: solid;
+    outline: red solid 5px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 50px;
+    width: 30%;
+    /*
+    
+    shorter definition:
+
+    margin: 50px; -> each side
+    
+    
+    */
+}

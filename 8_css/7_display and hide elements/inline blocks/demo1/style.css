@@ -1,0 +1,19 @@
+.one, .two{
+    width:500px;
+    height: 200px;
+    display: inline-block; /*without this we are not building the blocks with the specified width and height....it would be as big as needed to wrap the numbers in the span*/
+    margin-bottom: 10px;
+}
+
+.one{
+    background-color: blue;
+}
+
+.two{
+    background-color: red;
+}
+
+.box{
+    margin: auto; /*center the element. the box class contains all 4 boxes / spans*/
+    width: 1004px;
+}

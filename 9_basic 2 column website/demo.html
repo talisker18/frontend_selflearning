@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div id="header" class="divy">HEADER</div>
+      <div id="navbar" class="divy">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <!--to set a background color on whole main content and side menu. overwrite the main content background color with white-->
+      <div class="bgcolor">
+        <div class="main">
+          <div id="content1" class="divy">CONTENT1</div>
+          <div id="content2" class="divy">CONTENT2</div>
+          <div id="content3" class="divy">CONTENT3</div>
+        </div>
+        <div class="sidemenu">
+          <!--to set the height of sidemenu = content1+2+3: remove the divy class on element content4-->
+          <!--<div id="content4" class="divy">CONTENT4</div> -->
+          <div id="content4">CONTENT4</div>
+        </div>
+        <!--to display the red background we have to clear all ('both') floats inside the bgcolor element. so we are telling with this clearfix div that all preceeding floated elements are not floated anymore at this point-->
+        <div class="clearfix"></div>
+      </div>
+      <div id="footer" class="divy clearfix">FOOTER</div>
+    </div>
+  </body>
+</html>

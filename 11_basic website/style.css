@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+/*also from google fonts: for fire-animation effect use the class 'font-effect-fire-animation' in the html element (doesnt work with edge)*/
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation');
+
+body{
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 4px 4px #aaa;
+
+}
+
+#content header{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p::first-letter{
+    font-size: 5em;
+    color: red;
+}
+
+.container{
+    width: 1080px;
+    margin: auto; /*center  the container*/
+    background-color: beige;
+    padding: 20px;
+}
+
+nav{
+    background-color: gray;
+    width: 100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: red;
+    color: black;
+}
+
+.header-container header{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#content{
+    background-color: white;
+    color: black;
+    width: 56%;
+    float: left;
+    min-height: 500px;
+    padding: 2% 2%; /*this messes up the the floating, so use 56% width instead of 60*/
+}
+
+#sidemenu{
+    width: 36%;
+    float: right;
+    padding: 2% 2%; /*this messes up the the floating, so use 36% width instead of 40*/
+}
+
+#sidemenu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#sidemenu li{
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    background-color: #ddd;
+}
+
+#sidemenu a{
+    text-decoration: none;
+    color: coral;
+}
+
+#sidemenu li:hover{
+    background-color: #ccc;
+}
+
+.footer-container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-container{
+    background-color: aqua;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.rounded-corner{
+    border-radius: 35px;
+    background-color: black;
+    padding: 20px;
+}

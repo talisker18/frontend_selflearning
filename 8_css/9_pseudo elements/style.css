@@ -1,0 +1,24 @@
+div::first-letter{
+    background-color: blue;
+    color: white;
+    font-size: 100px;
+}
+
+p::first-line{
+    background-color: purple;
+}
+
+/*if we select a paragraph, the background turns orange*/
+p::selection{
+    background-color: orange;
+}
+
+p::after{
+    content: "---------after para-------------";
+    color: red;
+}
+
+p::before{
+    content: "----------before para------------";
+    color: red;
+}

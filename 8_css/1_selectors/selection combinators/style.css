@@ -1,0 +1,20 @@
+/*this applies to all paragraphs inside a section, even if p is not direct child of section*/
+section p {
+    background-color: red;
+}
+
+/*if you want to apply only to direct child use following*/
+
+section > p{
+    color: blue;
+}
+
+/*apply only to div elements that have section element as preceeding element*/
+section + div {
+    background-color: gray;
+}
+
+/*same as above, but this time we also apply to element above. with ~ we say 'all neighbours'*/
+p ~ h1 {
+    background-color: yellow;
+}

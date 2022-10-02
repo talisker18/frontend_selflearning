@@ -1,0 +1,25 @@
+@keyframes myAnimation{
+
+    /*instead of using from to, we can also use smthing like 0% 50% and 100%*/
+
+    from{
+        top: 0px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    to{
+        top: 500px;
+        width: 50%;
+        background-color: red;
+    }
+}
+
+.box1{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

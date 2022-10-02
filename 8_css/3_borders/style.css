@@ -1,0 +1,21 @@
+#header{
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    border-top-color: blue;
+    border-left-style: solid;
+    outline: red solid 5px;
+    margin-bottom: 20px;
+    /*round borders*/
+    border-radius: 25px;
+
+    /*
+    
+    shorter definition:
+
+    border: dashed black 2px;
+
+    --> this will do dashed style with black color and 2px width
+    
+    */
+}

@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html markups</title>
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse; /*without this, the table has additional border around each cell*/
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+        </style>
+        <body>
+            <h1>Welcome</h1>
+            <nav>
+                <a href="http://">Home</a>
+                <a href="http://">About</a>
+                <a href="http://">Contact</a>
+            </nav>
+            <br><br>
+            <table>
+                <tr>
+                    <th>Team</th>
+                    <th>Dates</th>
+                    <th>Totals</th>
+                </tr>
+                <tr>
+                    <td>Blue</td>
+                    <td>Mar 10</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>Red</td>
+                    <td>Apr 20</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total:</td>
+                    <td>135</td>
+                </tr>
+            </table>
+            <br><br>
+            <table>
+                <tr>
+                    <th>Team</th>
+                    <th>Dates</th>
+                    <th>Totals</th>
+                </tr>
+                <tr>
+                    <td>Blue</td>
+                    <td rowspan="2">Mar 10</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>Red</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total:</td>
+                    <td>135</td>
+                </tr>
+            </table>
+        </body>
+    </head>
+</html>

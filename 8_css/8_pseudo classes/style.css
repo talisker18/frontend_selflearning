@@ -1,0 +1,54 @@
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    color: yellow;
+}
+
+section p:hover{
+    background-color: yellow;
+}
+
+/*if a paragraph is a child of another element, like div or section...apply it to the first occurence*/
+p:first-child{
+    background-color: blueviolet;
+}
+
+
+/*you can also combine it...
+
+this selects the first p in::after
+<section>
+            <div>
+                <p>paragraph in section -> div</p>
+                <p>paragraph in section -> div</p>
+                <p>paragraph in section -> div</p>
+            </div>
+        </section>
+
+
+
+*/
+section div p:first-child{
+    background-color: brown;
+}
+
+/*select last p in a section -> div that contains a bold text. make only the text within 'b' with background red*/
+section div p:last-child b{
+    background-color: red;
+}
+
+/*here apply it to p number 3*/
+section div p:nth-child(3){
+    background-color: red;
+}
+

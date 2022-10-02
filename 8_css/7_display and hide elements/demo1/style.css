@@ -1,0 +1,12 @@
+/*with out inline display, the links would be among each other*/
+nav div {
+    display: inline; /*inline-block treats every div as one element*/
+}
+
+.hide{
+    display: none; /*its not visible and it does not use the space on the page*/
+}
+
+.hide2{
+    visibility: hidden; /*not visible but uses the space on page*/
+}

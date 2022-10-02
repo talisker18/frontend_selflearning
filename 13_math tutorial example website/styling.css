@@ -1,0 +1,169 @@
+#container{
+    width: 1050px;
+    /*border: 1px solid grey;*/
+    margin: 0 auto; /*center element*/
+}
+
+h1 a{
+    font-size: 40px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float: left;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9,#B7E953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(img/icons8-search-30.png) right center no-repeat; /*to make it fit into search field, change pixel of the search icon in "paint". here it is 22px because: font size = 15 px and padding top and bottom are 5px, so total 25px...now choose a bit less px for the search icon*/
+    
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#F8F594,#D5D533);
+    padding: 5px 0;
+
+}
+
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+/*remove right border on the last list item "CONTACT US"
+
+*/
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #5d12e7;
+    line-height: 30px; /*move link text so it is centered to the right borders of #menu ul li*/
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+/*make HOME active. Use the same props like we would hover*/
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #C34FDB;
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BB,#B7E952);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#introduction h3{
+    font-size: 40px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: #316901;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #BAF46F;
+    border-radius: 20px; /*rounded corners*/
+    padding: 10px 20px;
+}
+
+.sidebar h3{
+    color: #B314DB;
+    font-size: 25px;
+
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover{
+    text-decoration: none;
+    font-size: 23px;
+    color: #B314DB;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(img/icons8-arrow-100.png);
+}
+
+#rightsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(img/icons8-done-48.png);
+}
+
+#rightsidebar{
+    float: right;
+}

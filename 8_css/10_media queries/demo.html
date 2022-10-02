@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html markups</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+                background-color: blue;
+            }
+            /*between 800px and 1000px, the background gets red*/
+            @media all and (min-width: 1024px) and (max-width: 1280px){ /*size for desktop*/
+                body{
+                    background-color: red;
+                }
+            }
+            @media all and (min-width: 768px) and (max-width: 1024px){ /*size for tablets*/
+                body{
+                    background-color: green;
+                }
+            }
+
+            @media all and (min-width: 480px) and (max-width: 768px){ /*size for portrait*/
+                body{
+                    background-color: violet;
+                }
+            }
+
+            @media all and (max-height: 200px){ /*size for portables*/
+                body{
+                    background-color: orange;
+                }
+            }
+
+            /*different screen sizes*/
+            @media screen and (orientation: portrait){
+                /*code here*/
+            }
+            @media screen and (orientation: landscape){
+                /*code here*/
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <nav>
+            <a href="http://www.google.ch" target="_blank" title="Home">Home</a>
+            <a href="http://" title="About">About</a>
+            <a href="http://" title="Contact">Contact</a>
+        </nav>
+
+        <form>
+            <input type="text" name="title" value="Welcome" />
+            <input type="submit" value="Register">  
+        </form>
+
+        <section>
+            <p class="blue">section 1 text</p>
+            <p class="blue">section 1 text</p>
+            <p>section 1 text</p>
+            <p>section 1 text</p>
+        </section>
+
+        <section>
+            <p>section 2 text</p>
+            <p>section 2 text</p>
+            <p>section 2 text</p>
+            <p>section 2 text</p>
+        </section>
+
+        <p>paragraph outsite section</p>
+        <p>paragraph outsite section</p>
+        <p>paragraph outsite section</p>
+        <p>paragraph outsite section</p>
+
+        <section>
+            <div>
+                <p>paragraph in section -> div</p>
+                <p>paragraph in section -> div</p>
+                <p>paragraph in section -> div</p>
+            </div>
+        </section>
+        <div>div text after a section</div>
+
+        <br><br>
+
+        <h1>title before para</h1>
+        <p></p>
+        <h1>text after para</h1>
+
+    </body>
+</html>
